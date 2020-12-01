@@ -40,6 +40,8 @@
     "@nestjs/common": "^6.0.0"
   },
   "dependencies": {
+    "@types/moment": "^2.13.0",
+    "moment": "^2.29.1",
     "standard-version": "^9.0.0"
   },
   "devDependencies": {
