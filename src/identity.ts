@@ -14,13 +14,19 @@ export interface RuntimeIdentity {
     duration: string;
     git: {
       branch: string;
+      tag: string;
       shortSHA: string;
     };
   };
 }
 const START_DATE = new Date();
 
-const { RELEASE_AT, RELEASE_GIT_BRANCH, RELEASE_GIT_SHORT_SHA } = process.env;
+const {
+  RELEASE_AT,
+  RELEASE_GIT_BRANCH,
+  RELEASE_GIT_TAG,
+  RELEASE_GIT_SHORT_SHA,
+} = process.env;
 
 export function getRuntimeIdentity(): Partial<RuntimeIdentity> {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -45,6 +51,7 @@ export function getRuntimeIdentity(): Partial<RuntimeIdentity> {
       duration: moment(RELEASE_AT).fromNow(),
       git: {
         branch: RELEASE_GIT_BRANCH,
+        tag: RELEASE_GIT_TAG,
         shortSHA: RELEASE_GIT_SHORT_SHA,
       },
     },
