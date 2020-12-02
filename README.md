@@ -1,5 +1,7 @@
 # Nodejs Runtime Identity
 
+[![npm version](https://badge.fury.io/js/runtime-identity.svg)](https://www.npmjs.com/package/runtime-identity)
+
 We need to identify who is running already. this package gives some info about that. some thing like:
 
 ```js
