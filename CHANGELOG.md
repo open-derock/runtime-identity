@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/open-derock/runtime-identity/compare/v1.0.0...v1.0.1) (2020-12-02)
+
+
+### Features
+
+* git tag ([d64188a](https://github.com/open-derock/runtime-identity/commit/d64188a678cb5ed38929e3732933e1270d8b9606))
+
 ## 1.0.0 (2020-12-01)
 
 
