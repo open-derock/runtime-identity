@@ -2,7 +2,7 @@
 
 We need to identify who is running already. this package gives some info about that. some thing like:
 
-```json
+```js
 {
   "name": "my-nodejs-app", // `name` attribute from ./package.json
   "version": "1.1.0", // `version` attribute from ./package.json
@@ -22,4 +22,10 @@ We need to identify who is running already. this package gives some info about t
     }
   }
 }
+```
+
+## Install
+
+```bash
+npm i runtime-identity
 ```
